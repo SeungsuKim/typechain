@@ -1,0 +1,19 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Implements a Blockchain with Typescript",
+  "main": "index.js",
+  "repository": "https://github.com/SeungsuKim/typechain",
+  "author": "SeungsuKim",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^2.2.1"
+  },
+  "dependencies": {
+    "typescript": "^3.5.1"
+  }
+}
